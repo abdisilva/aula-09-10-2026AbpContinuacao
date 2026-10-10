@@ -1,0 +1,43 @@
+DOCKER COMMANDS
+
+docker compose up --build
+https://docs.docker.com/compose/intro/compose-application-model/
+
+
+INICIAR UBUNTU (WSL) TERMINAL
+
+sudo service docker start
+docker image ls
+docker container ls
+
+OBS: 1 container só entrega 1 coisa
+
+
+docker compose dow -v
+
+CONSTRUINDO SERVIDOR
+Windows
+npm init -y
+npm i express pg
+
+Estrutura do projeto
+backend
+
+Subir o servidor server.js
+npm run dev
+
+exportar por default - apenas 1 pode ser
+para importar sem default tem de ter Chaves
+import { autenticarCandidatoService } from "../services/login.js";
+
+Desestruturar objeto json
+
+await = esperar 
+
+INSTALAR BIBLIOTECA
+npm i jsonwebtoken 
+npm i bcryptjs
+
+clausula parametrizada não executa sqlinjection
+
+sortear e responder as questões
